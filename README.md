@@ -18,6 +18,10 @@ composer install
 
 phpunit testrest.php
 
+enable travis-ci from https://travis-ci.org/profile/{your_username}
+
+checkin some changes and see build at https://travis-ci.org/
+
 
 <a name="Tips" />
 #One time setup - SSH for PHPStorm to work with GIT
