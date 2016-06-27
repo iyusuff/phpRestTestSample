@@ -1,0 +1,9 @@
+language: php
+php:
+  - 5.5
+  - 5.4
+install:
+# Install php dependencies
+- composer install
+script:
+- phpunit testrest.php

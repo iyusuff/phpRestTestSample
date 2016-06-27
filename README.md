@@ -20,7 +20,14 @@ phpunit testrest.php
 
 enable travis-ci from https://travis-ci.org/profile/{your_username}
 
-checkin some changes and see build at https://travis-ci.org/
+checkin some changes and see build at https://travis-ci.org/ [you should see msg: Could not find .travis.yml, using standard configuration.]
+
+create a .travis.yml file with content below:
+language: php
+php:
+- 5.5
+- 5.4
+script: phpunit testrest.php
 
 
 <a name="Tips" />
